@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Neelam sai charan — Portfolio</title>
+  <link rel="stylesheet" href="assets/style.css" />
+</head>
+<body>
+  <header class="hero">
+    <img src="assets/profile.jpg" alt="Neelam sai charan" class="avatar" />
+    <h1>Neelam sai charan</h1>
+    <p>Healthcare IT • RadNet Specialist • Incident & Change Management</p>
+  </header>
+
+  <main class="container">
+    <section id="about">
+      <h2>About</h2>
+      <p>I'm a RadNet specialist focused on radiology workflows, support, and configuration. I help clinical teams by ensuring imaging systems run smoothly and changes are coordinated safely.</p>
+    </section>
+
+    <section id="skills">
+      <h2>Skills</h2>
+      <ul>
+        <li>RadNet configuration & support</li>
+        <li>Incident & change management</li>
+        <li>Documentation & end-user training</li>
+        <li>Agile collaboration</li>
+      </ul>
+    </section>
+
+    <section id="experience">
+      <h2>Experience</h2>
+      <h3>RadNet Specialist</h3>
+      <ul>
+        <li>Configured imaging workflows and templates in RadNet.</li>
+        <li>Handled incidents and coordinated change windows with clinicians.</li>
+        <li>Prepared SOPs and supported radiology teams on daily operations.</li>
+      </ul>
+    </section>
+
+    <section id="education">
+      <h2>Education</h2>
+      <p>[Your degree], [Institution], [Year]</p>
+    </section>
+
+    <section id="contact">
+      <h2>Contact</h2>
+      <p>Email: <a href="mailto:your.email@example.com">your.email@example.com</a></p>
+      <p>LinkedIn: <a href="#">your-linkedin</a></p>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <small>&copy; <span id="year"></span> Neelam sai charan</small>
+  </footer>
+
+<script>document.getElementById('year').textContent = new Date().getFullYear()</script>
+</body>
+</html>
